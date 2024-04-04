@@ -55,4 +55,4 @@ npm run dev
 
 
 ## Deployed Link 🌐
-[Click Here](https://philip-tom.netlify.app/portfolio)
+[Click Here](https://philip-tom.netlify.app/)
