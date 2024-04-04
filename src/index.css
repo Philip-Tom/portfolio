@@ -1,0 +1,135 @@
+body {
+  background-color: #edf2f4;
+}
+
+.navbar-bg {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: #212529;
+}
+
+.heading-underline {
+  position: relative;
+}
+
+.heading-underline:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  width: 50px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #212529;
+  transform: translateX(-50%);
+}
+
+.about-me {
+  background-color: #f8f9fa;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.portfolio {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project-card {
+  background-color: #f8f9fa;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.view-link {
+  color: #212529;
+  font-size: 0.8rem;
+  text-align: right;
+  font-style: italic;
+}
+
+.proficiency-card {
+  border: 1px solid #f8f9fa;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.proficiency-card:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.proficiency-card .card-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.proficiency-icon {
+  font-size: 2rem;
+}
+
+
+
+.download-resume {
+  margin-top: 20px;
+  text-align: center;
+  padding: 1rem;
+}
+
+.btn-download {
+  display: inline-block;
+  background-color: #212529;
+  color: #f8f9fa;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn-download:hover {
+  color: #f8f9fa;
+  background-color: #5a5d5f;
+}
+
+.download-icon {
+  margin-right: 10px;
+}
+
+
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #f8f9fa;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #212529;
+  border-radius: 5px;
+  width: 10px;
+  height: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #212529; 
+}
